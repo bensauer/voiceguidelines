@@ -1,0 +1,8 @@
+repository: git@github.com:clearleft/voiceguidelines.git
+
+deploy:
+  branch: master
+  server: overflow
+  domain: voiceguidelines.clearleft.com
+  auth:
+    clearleft: hurric4ne
