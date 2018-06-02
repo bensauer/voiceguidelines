@@ -305,7 +305,7 @@ svg:not(:root) {
 }
 
 .Lead {
-  font-size: 1.125rem;
+
   line-height: 1.55556;
   padding: 1.25rem 1.5rem 1rem 1.5rem;
 }
@@ -326,11 +326,10 @@ svg:not(:root) {
 
 @media screen and (min-width: 32.5em) {
   .Lead {
-    font-size: 1.25rem;
     line-height: 1.7;
   }
   .Lead--wrapper {
-    padding: 2rem 2rem 2.375rem 2rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
     margin-bottom: 0.5rem;
   }
   .Lead-content {
@@ -340,10 +339,10 @@ svg:not(:root) {
 
 @media screen and (min-width: 61.5625em) {
   .Lead--wrapper {
-    padding: 2.625rem 4rem 2.375rem 4rem;
+    padding: 1.5rem 4rem 1.5rem 4rem;
   }
   .Lead {
-    font-size: 1.4375rem;
+    font-size: 1rem;
     line-height: 1.56522;
   }
 }
@@ -370,11 +369,11 @@ svg:not(:root) {
 
 @supports (position:sticky) {
   .Prose h2[id] {
-    padding-top: 12rem;
+    padding-top: 3rem;
   }
   @media only screen and (min-width: 18em) {
     .Prose h2[id] {
-      padding-top: 8rem;
+      padding-top: 1rem;
     }
   }
 }
